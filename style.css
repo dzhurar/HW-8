@@ -1,16 +1,55 @@
-body{
-    box-sizing: border-box;
+#greycol{
+    color:grey;
 }
-.container{
-    width: 1400px;
-    margin: 0 auto;
-    margin-top: 50px;
+.yellow{
+    color: yellow;
 }
-/* .odna{
-    margin-left: 10px;
-    margin-right: 10px;
-} */
-tr, td{
-    border: 1px solid black;
-    text-align: center;
+h3:first-child{
+    color: pink;
+}
+.text-box>div>p{
+    color:red;
+}
+p:nth-child(7){
+    color:green;
+}
+/* Task2 */
+ul{
+    list-style: none;
+}
+.list{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.hover-link:hover{
+    color: fuchsia;
+}
+.focus-link:focus{
+    background-color: fuchsia;
+}
+.link:link{
+    background-color: red;
+}
+.visited-link:visited{
+    color: aqua;
+}
+.active-link:active{
+    background-color: bisque;
+}
+.tuesday li:last-child{
+    background-color: yellow;
+}
+.wednesday li:nth-child(odd){
+    color: brown;
+}
+.thursday li:nth-child(even){
+    color: goldenrod;
+}
+.friday li:nth-child(-n+2){
+    background-color: violet;
+}
+.friday li:nth-child(3n){
+    color: blue;
 }
